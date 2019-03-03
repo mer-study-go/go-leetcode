@@ -23,7 +23,7 @@ Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
 Two Pointers
 
 ## Solution 
-Of course we could still apply the [Map](../Maps/TwoSum/README.md) approach, but it costs us O(n) extra space, plus it does not make use of the fact that the input is already sorted. 
+Of course we could still apply the [Map](../../Maps/TwoSum/README.md) approach, but it costs us O(n) extra space, plus it does not make use of the fact that the input is already sorted. 
 
 **O(n) runtime, O(1) space - Two pointers**
 
@@ -78,4 +78,4 @@ class Solution {
 
 ## Related:
 
-* [Two Sum](../Maps/TwoSum/README.md)
+* [Two Sum](../../Maps/TwoSum/README.md)
