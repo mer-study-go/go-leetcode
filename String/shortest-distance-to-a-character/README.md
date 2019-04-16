@@ -70,4 +70,7 @@ func min(x, y int) int {
 	return y
 }
 ```
+## Complexity Analysis 
 
+* Time Complexity: O(N), where `N` is the length of `S`. We scan through the string twice. 
+* Space Complexity: O(N), the size of `result`
