@@ -1,4 +1,4 @@
-# [Arrange Coins] (https://leetcode.com/problems/arranging-coins/)
+# [Arrange Coins](https://leetcode.com/problems/arranging-coins/)
 
 ## Description
 
