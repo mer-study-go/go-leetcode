@@ -1,4 +1,4 @@
-package arrangecoins
+package sumoftwointegers
 
 import (
 	"testing"
@@ -8,33 +8,26 @@ import (
 
 // tcs is testcase suite slice
 var tcs = []struct {
-	n   int
+	a   int
+	b   int
 	ans int
 }{
 	{
-		1804289383,
-		60070,
-	},
-	{
-		10,
-		4,
-	},
-	{
-		5,
+		1,
 		2,
-	},
-	{
-		8,
 		3,
 	},
-
-	// More testcases go here
+	{
+		-2,
+		3,
+		1,
+	},
 }
 
-func Test_arrangeCoins(t *testing.T) {
+func Test_getSum(t *testing.T) {
 	ast := assert.New(t)
 
 	for _, tc := range tcs {
-		ast.Equal(tc.ans, arrangeCoins(tc.n))
+		ast.Equal(tc.ans, getSum(tc.a, tc.b))
 	}
 }
