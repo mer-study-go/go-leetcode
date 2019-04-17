@@ -77,6 +77,8 @@ public long sum(long n) {
 }
 ```
 
+### Solution In Go
+
 ```go
 func arrangeCoins(n int) int {
     return helper(n, 1, n)
