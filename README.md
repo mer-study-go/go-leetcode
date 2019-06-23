@@ -2,9 +2,17 @@
 
 Solution for leetcode in Go 
 
+* List-Based Collections
+    * Array
+        * Slice
+    * Linked List
+
+* Maps and Hashing
+    * Maps 
+
+
 Reference:
-* https://github.com/aQuaYi/LeetCode-in-Go
-* https://github.com/JieqiongYu/leetcode-solution-with-testcases
+* [Learn Data Structure and Algorithms with Golang](https://learning.oreilly.com/library/view/learn-data-structures/9781789618501/)
 
 |No|Question|Solution|Level|Category|
 |-|-|-|-|-|

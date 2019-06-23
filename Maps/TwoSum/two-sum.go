@@ -11,14 +11,15 @@ func main() {
 }
 
 func twoSum(nums []int, target int) []int {
-	dataset := map[int]int{}
+	dataset := make(map[int]int)
+
 	for index, value := range nums {
-		x := target - nums[index]
-		item, ok := dataset[x]
+		item, ok := dataset[target - value]
 		if ok == true {
 			return []int{item, index}
 		}
 		dataset[value] = index
 	}
+
 	return []int{}
 }
